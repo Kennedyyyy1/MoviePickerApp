@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="@string/option_home"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/menu_about"
+        android:title="@string/home_about"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_account"
+        android:title = "@string/home_account"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_rate"
+        android:title="@string/option_rate"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/menu_setting"
+        android:title="@string/home_settings"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
